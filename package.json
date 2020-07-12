@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap_2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateosoto15/Bootstrap_2.0.git"
+  },
+  "author": "Mateosoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateosoto15/Bootstrap_2.0/issues"
+  },
+  "homepage": "https://github.com/mateosoto15/Bootstrap_2.0#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "ionic": "^5.4.16",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

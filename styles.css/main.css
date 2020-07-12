@@ -1,0 +1,187 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*Tamaño, gruesor, altura del titulo */
+h1{ font-size: 66px; font-weight: 600; line-height: 80px; margin-top: 120px;}
+h2{ font-size: 48px; margin-bottom: 30px;} 
+
+p{
+    font-size: 18px;
+    color: 99999;
+    line-height: 1,8;
+    margin-bottom: 0;
+}
+
+.topmargin-xs { margin-top: 15px;}
+.topmargin-md { margin-top: 30px;}
+.topmargin-lg { margin-top: 60px;}
+
+section{
+    padding: 120px 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.navbar{
+    background-color: white;
+    min-height: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0,.05);
+}
+/*una seccion para la imagen, background-size=tamaño*/
+#hero {
+    background-image: url('Imagescss/hero.png');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+.nav-link{color: black;}
+.nav-link:hover{color: black;}
+.navbar-toggler{
+    font-size: 50px;
+}
+.navbar-toggler:focus{outline: none;}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+
+}
+
+.portafolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+
+
+}
+
+.portafolio-details{
+    position: absolute;
+    bottom: 3px;
+    left: 18px;
+
+}
+
+.portafolio-details a h2, .portafolio-details a p{
+    color: white;
+}
+
+.portafolio-details h2{
+    margin-bottom: 0px;
+}
+
+.portafolio-container img{
+    -moz-transition:all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+
+
+}
+
+.portafolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+.img-fluid{
+    min-height: 500px;
+
+
+}
+.img-mateo{
+    height: 500px;
+   width:500px;
+}
+.member-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.member-details{
+    position: absolute;
+    bottom: 0px;
+    left: 18px;
+    color: white;
+    
+}
+
+.member-details h3{
+    font-weight: 600;
+    color: white;
+}
+.member-details p{
+    font-weight: 600;
+}
+
+ion-icon {
+    font-size: 24px;
+    color: black;
+}
+
+.precios-container{
+    margin: 15px 0;
+    min-width: 480px;
+} 
+
+.planes{
+    padding: 50px 80px;
+    border-radius: 2px;
+    
+}
+.plan-light{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+.plan-dark{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+.planes h2{
+    font-size: 80px;
+    font-weight: 600;
+}
+.planes span{
+    
+    font-size:20px ;
+
+}
+.btn {    
+    font-size: 14px;
+    padding: 15px 25px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.btn-dark{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+.btn-lg{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-lg:hover{
+    color: white;
+}
+
+.logo-brand{
+    min-width: 30px;
+    max-width: 40px;
+    min-height: 30px;
+    max-height: 40px;
+}
