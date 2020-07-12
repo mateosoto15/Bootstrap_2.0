@@ -188,6 +188,7 @@ ion-icon {
 }
 
 
+
 @media (max-width: 575.98px) { 
     h1 { font-size: 40px; line-height: normal; }
     .portafolio-details h2 { font-size: 32px; }
@@ -201,3 +202,4 @@ ion-icon {
 @media (min-width: 992px) and (max-width: 1199.98px) { }
 
 @media (min-width: 1200px) { }
+
