@@ -31,7 +31,7 @@ a:hover{
 }
 /*una seccion para la imagen, background-size=tamaño*/
 #hero {
-    background-image: url('Imagescss/hero.png');
+    background-image: url("Imagescss/hero.png");
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
@@ -52,6 +52,8 @@ a:hover{
 
 
 }
+
+.divider{border-bottom: 2px solid #f5f5f5 ;}
 
 .portafolio-container{
     position: relative;
@@ -186,20 +188,107 @@ ion-icon {
     min-height: 30px;
     max-height: 40px;
 }
+.carousel{
+    min-height: 240px;
+    padding: 40px ;
+    border-radius: 2px;
+    text-align: center;
+
+}
+.carousel p {
+   font-size: 26px;
+   font-weight: 400;
+   color: black;
+}
+.rating ion-icon{
+    color: yellow;
+    font-size: 18px;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+    color:white;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    color:white;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
 
 
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-control:focus {
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: none;
+
+}
+footer {
+    background-color: black;
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+footer ion-icon {
+    color: white;
+  }
 
 @media (max-width: 575.98px) { 
     h1 { font-size: 40px; line-height: normal; }
     .portafolio-details h2 { font-size: 32px; }
     .planes { min-width: unset; padding: 40px; }
+    .carousel-item p{
+        font-size: 15px;
+    }
+    .testimonios-details h2{
+        font-size: 30px; }
+    .testimonios-details p {padding: 40px;}
+    .footer-menu { 
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    
+    }
+   
+    
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { }
 
-@media (min-width: 768px) and (max-width: 991.98px) { }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .planes { min-width: unset; padding: 40px 20px; }
+ }
 
-@media (min-width: 992px) and (max-width: 1199.98px) { }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .planes { min-width: unset; padding: 40px 20px; }
+ }
 
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+    
+
+ }
 
